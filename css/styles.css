@@ -1,6 +1,6 @@
 
 .card-pink {
-	background-color: #dad4d6;
+	background-color: #ffffff;
 	padding: 10px 30px;
 	border: 2px solid black;
 	margin: 0px 10px;
@@ -8,4 +8,90 @@
 	border-radius: 5px;
 	/* bs: left top ambyar */
 	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+/* button */
+.btn-black {
+	background-color: #ff8800;
+	padding: 10px 30px;
+	border: 2px solid black;
+	margin: 0px 10px;
+	color: black;
+	border-radius: 5px;
+	/* bs: left top ambyar */
+	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-blue {
+	background-color: #f1ee0a;
+	padding: 10px 30px;
+	border: 2px solid black;
+	margin: 0px 10px;
+	color: black;
+	border-radius: 5px;
+	/* bs: left top ambyar */
+	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-orange {
+	background-color: #0cdd39;
+	padding: 10px 30px;
+	border: 2px solid black;
+	margin: 0px 10px;
+	color: black;
+	border-radius: 5px;
+	/* bs: left top ambyar */
+	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-pink {
+	background-color: #ffffff;
+	padding: 10px 30px;
+	border: 2px solid black;
+	margin: 0px 10px;
+	color: black;
+	border-radius: 5px;
+	/* bs: left top ambyar */
+	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-white {
+	background-color: #ffffff;
+	padding: 10px 30px;
+	border: 2px solid black;
+	margin: 0px 10px;
+	color: black;
+	border-radius: 5px;
+	/* bs: left top ambyar */
+	box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+
+/* button hover */
+
+.btn-blue:hover {
+	color: black;
+	margin-top: 3px;
+	margin-bottom: -3px;
+	box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+
+.btn-orange:hover {
+	color: black;
+	margin-top: 3px;
+	margin-bottom: -3px;
+	box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+
+.btn-pink:hover {
+	color: black;
+	margin-top: 3px;
+	margin-bottom: -3px;
+	box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+
+.btn-white:hover {
+	color: black;
+	margin-top: 3px;
+	margin-bottom: -3px;
+	box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
 }
