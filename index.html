@@ -1,128 +1,955 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-  <!-- Native CSS Start -->
-  <link rel="stylesheet" href="/css/index.css">
-  <!-- Native CSS Start -->
-
-  <!-- Bootstrap CSS Start -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- Bootstrap CSS End -->
-  <link rel="icon" type="image/x-icon"  href="https://telegra.ph/file/0c12fa7b97df0f5c29c39.png" />
-  <!-- Icon Pack Start -->
-  <script src="https://kit.fontawesome.com/94b68a0c09.js" crossorigin="anonymous"></script>
-  <!-- Icon Pack End -->
-
-  <!-- Meta Start -->
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>I'm Yosh</title>
-  <!-- Meta End -->
+  <title>Yosep Wahyu D - Personal Portfolio</title>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-image: url(https://i.pinimg.com/originals/0b/5c/dd/0b5cddb5352ae325e8bcbd8ae8d448f9.gif);
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;">
+<body>
 
-  <main class="d-block mx-auto" style="max-width:400px;">
+  <!--
+    - #MAIN
+  -->
 
-    <div class="w-100">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid my-auto">
-          <p class="navbar-brand h1 mb-0 fw-bold">
-            I'm Yosh
-          </p>
-          <a class="btn btn-danger skill" href="https://wa.me/6281935593316" ><i class="fa-solid fa-message pe-2"></i> Let's talk!</a>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yosep Wahyu D" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yosep Wahyu D">Yosep Wahyu D</h1>
+          <p class="title">Web Developer</p>
         </div>
-      </nav>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <img src="https://telegra.ph/file/d3bceb965d170503f9a5d.jpg" alt="" class="rounded-5 d-block mx-auto my-3" style="width:50%">
-          <p class="h1 text-center fw-bold">
-            Yosep WD
-          </p>
-          <p class="fs-6 text-center">
-            @yosepwdd
-          </p>
-          <p class="fs-5 text-center">
-            Hey there! I'm a programmer and pharmaceutical.
-          </p>
-        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
-      <div class="row border border-1 m-3 rounded border ">
-        <div class="col-6 text-center">
-          <p class="h6 m-1 fw-bold">
-            Badges
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yoshwdd@gmail.com" class="contact-link">yoshwdd@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6288226772171" class="contact-link">+62 88226772171</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-08-24">October 06, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Semarang, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/YoshCasaster" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/YosepWahyuDanuarta" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a student pursuing a Bachelor's degree in Computer Engineering with a focus on web development. I have been actively involved in creating real-time projects in web applications and I am currently looking for job opportunities to further improve my skills and gain practical experience. I have a strong interest in web development and I am very excited to learn new technologies, explore new projects, and contribute to meaningful projects. I kept learning new concepts in web development and working on side projects to expand my skills.
           </p>
-      
-            <span class="badge bg-primary">CSS</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-success">Node-JS</span>
-                <span class="badge bg-danger">HTML 5</span>
-                <span class="badge bg-warning text-dark">Java Script</span>
-                <span class="badge bg-info text-dark">PHP</span>
-                <span class="badge bg-dark">GitHub</span>
-                <span class="badge bg-primary">GoLang</span>
-                <span class="badge bg-secondary">MySQL</span>
-                <span class="badge bg-success">MongoDB</span>
-                <span class="badge bg-danger">Laravel</span>
-                <span class="badge bg-warning text-dark">IOP</span>
           
-        </div>
-        <div class="col-6 text-center border-start border-end">
-          <p class="h6 m-1 fw-bold">
-            Projects
-          </p>
-            <span class="badge bg-secondary">Website Game LS</span>
-            <span class="badge bg-info text-dark">Website Fotografer</span>
-                <span class="badge bg-success">BOT Whatsapp Store</span>
-                <span class="badge bg-danger">BOT Whatsapp Group</span>
-                <span class="badge bg-warning text-dark">Perpus Laravel</span>
-                <span class="badge bg-dark">Website APi</span>
-                <span class="badge bg-primary">Website LinkTree</span>
+          <p>
+            <br>• Proficient in web development technologies including HTML, CSS, JavaScript, and framework Vue & Vite JS.
+            </br>
+            • Experience with backend technologies such as PHP, Node.js, Express.js, MySql (SQl) and MongoDB (Non-SQL).
+            <br>
+            • Familiarity with version control systems like Git and collaboration platforms like GitHub.
+            </br>
+            • Collaborating with UI/UX designers and software testers to ensure the functionality and usability of web applications.
+            <br>
+          </p>          
+        </section>
+
+
+        <!--
+          recom
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="M.Nauval" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>M.Nauval [Founder Community Game LSO]</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the pleasure of working with Yosh on a web development project. aryan is a dedicated and talented developer who consistently impressed the team with their commitment to excellence. Their strong understanding of web technologies, coupled with their passion for learning, made them an invaluable asset to the project. I would highly recommend aryan for any web development position or project.
+                  </p>
+                </div>
+
+              </div>
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Realizy" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Realizy [Founder Community VTuber Jaksel]</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Yosh was a fantastic experience. aryan is not only a skilled developer but also a great team player. They were always willing to go the extra mile to ensure that the project met its objectives. aryan's ability to quickly grasp new concepts and their eagerness to take on challenges make them an ideal candidate for any web development team.
+                  </p>
+                </div>
+
+              </div>
+              
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - recom modal
+        -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
         
-      </div>
-      <div class="row">
-        <div class="col-7">
-          <a href="CV Yosep.pdf" download>
-            <button class="btn btn-danger w-100"><i class="fa-solid fa-download pe-2"></i>Download CV</button>
-          </a>
-        </div>
-        <div class="col-5">
-          <a href="projects.html">
-          <button class="btn btn-outline-danger w-100" ><i class="fa-solid fa-briefcase pe-2"></i></i>Projects</button>
-      </a>
-        </div>
-    </div>
-  </div>
-</div>
-</main>
+      </article>
 
-<section>
-  <div class="custom-footer text-center">
-          <div class="col-12">
-             
-              <p class="text"> YosepWD (YoshCasaster) | Made ❤️</p>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
           </div>
-  </div>
 
-</section>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Semarang</h4>
+
+              <span>2021 — Now</span>
+
+              <p class="timeline-text">
+                Bachelor of Informatics Engineering - Computer Engineering
+                <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMK Theresiana Semarang</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Farmasi Industri
+                <br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">position</h4>
+              <span>company</span>
+
+              <span>duration</span>
+
+              <p class="timeline-text">
+                Skills: 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+          <h5 class="h5 skills-title">Proficient in Web Development Technologies</h5>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </li>
+
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+        <h5 class="h5 skills-title">Experience with JavaScript Frameworks/Libraries</h5>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">React.js</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+          
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">JQuery</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Familiarity with Backend Technologies</h5>
+
+        <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Express.js</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+          <h5 class="h5 skills-title">Experience with Databases</h5>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB (Non-SQL)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL (SQL)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+          </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience with Version Control Systems</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Git</h5>
+              <data value="65">65%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 65%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">GitHub</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience With Web Development Tools</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Figma</h5>
+              <data value="55">55%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 55%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">VS Code</h5>
+              <data value="90">90%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Replit</h5>
+              <data value="60">60%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 60%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">WebFlow</h5>
+              <data value="75">75%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Vercel</h5>
+              <data value="75">75%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Netfily</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+        </ul>
+
+        </section>
+
+      </article>
 
 
-<!-- Native JS Start -->
-<script src="js/index.js"></script>
-<!-- Native JS End -->
 
-<!-- Bootstrap JS Start -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<!-- Bootstrap JS End -->
+
+
+      <!--
+        - #project
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Creative</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Critical</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Creative</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Critical</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://codefomo.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="CodeFomo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CodeFomo</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="https://apis-public.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Api-Public" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Api-Public</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="https://codefomo-portofolio.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="Portofolio Templates" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portofolio Templates</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://easy-store-generator.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="Web Store Generator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Store Generator</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://demo-scode.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Website Share Code" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website Share Code</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://github.com/YoshCasaster/BULK_GMAIL_YOSEPWD">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="Bulk Gmail Sender" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bulk Gmail Sender</h3>
+
+                <p class="project-category">Tools</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog.jpg" alt="xx"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Flutter</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-07-27">Jul 27, 2022 · 7 min read</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Exploring the Stripe Payment Gateway In Flutter</h3>
+
+                  <p class="blog-text">
+                    Stripe payment gateway integration in flutter project.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <!-- <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?width=600&amp;height=400&amp"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article> -->
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
 </body>
+
 </html>
